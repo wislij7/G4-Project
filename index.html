@@ -11,19 +11,20 @@
           
             <header id="masthead" class="site-header" role="banner">
               <nav class="anchor-nav" role="navigation">
-                <a href="#intro" class="anchor">Home</a>
-                <a href="#panel-1" class="anchor">Panel 1</a>
-                <a href="#panel-3" class="anchor">Panel 3</a>
-                <a href="#panel-5" class="anchor">Panel 5</a>
-                <a href="#map" class="anchor">Map</a>
+                <a href="#intro" class="anchor">Title page</a>
+                <a href="#panel-1" class="anchor">Our Goal</a>
+                <a href="#panel-2" class="anchor">Biodiesel benefits</a>
+                <a href="#panel-3" class="anchor">Creation, experiments and results</a>
+                <a href="#panel-4" class="anchor">Video</a>
+                <a href="#panel-5" class="anchor">Group photo</a>
+                <a href="#map" class="anchor">Sources</a>
               </nav>
             </header>
           
             <main id="content" class="site-content" role="main">
           
               <section id="intro" class="full-screen pt-5 blue">
-                <h1>A cool title</h1>
-          
+                <h1>The Exploration of Biodiesel</h1>           
                 <div id="clouds-layer-1" class="clouds"></div>
                 <div id="clouds-layer-2" class="clouds"></div>
               </section>
@@ -36,16 +37,16 @@
                     <div class="container">
                       <div class="row">
                         <div class="col-6">
-          
-                          <img src="placeholder.png" alt="">
-          
                         </div>
                         <div class="col-6 d-flex flex-column">
           
-                          <h2>Placeholder Title Front</h2>
+                          <h2>What are we doing?</h2>
           
                           <p class="step-description">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                            We are creating and testing for the effectiveness of biodiesel as it is a sustainable fuel source. This is done to see which types of biodiesel is the most efficient as a fuel source while also raising awareness for the sustainability goals number 7 and 11.
+                            <br>
+                            <br>
+                            (The pages should snap in place; only a slight scroll is needed to go to the next page)
                           </p>
           
                           <div class="panels-navigation text-right">
@@ -66,10 +67,13 @@
                         </div>
                         <div class="col-6 d-flex flex-column">
           
-                          <h2>Panel 2</h2>
+                          <h2>The benefits of biodiesel</h2>
           
                           <p class="step-description">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                            When consumed, biodiesel will only emit a small amount of carbon dioxide, releasing less greenhouse gasses into the atmosphere compared to its fossil fuel counterpart.
+                            <br>
+                            Not only that, research shows that there will be less toxic air pollutants released from vehicles if they use biodiesel instead of fossil fuels.
+
                           </p>
           
                           <div class="panels-navigation">
@@ -90,12 +94,18 @@
                         </div>
                         <div class="col-6 d-flex flex-column">
           
-                          <h2>Panel 3</h2>
+                          <h2>How will we create and measure the effectiveness of different biodiesels?</h2>
           
                           <p class="step-description">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                            In summary, we used different types of oils and added some potassium hydroxide to them to create biodiesel.
+                            <br>
+                            We then measured the effectiveness of each biodiesel via measuring the temperature changed when heating water with the fuel. Higher the temperature, the more efficient the biodiesel is.
+                            <br>
+                            For a more detailed explination for both, click on the button below to find out more!
                           </p>
-          
+                          <a href="create/index.html">
+                            <button>More Information</button>
+                          </a>
                           <div class="panels-navigation">
                             <div class="nav-panel" data-sign="minus"><a href="#panel-2" class="anchor">Prev</a></div>
                             <div class="nav-panel" data-sign="plus"><a href="#panel-4" class="anchor">Next</a></div>
@@ -114,12 +124,11 @@
                         </div>
                         <div class="col-6 d-flex flex-column">
           
-                          <h2>Panel 4</h2>
+                          <h2>A short video about our project</h2>
           
-                          <p class="step-description">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
-                          </p>
-          
+                          <video controls>
+                            <source src="movie.mp4" type="video/mp4">
+                          </video>
                           <div class="panels-navigation">
                             <div class="nav-panel" data-sign="minus"><a href="#panel-3" class="anchor">Prev</a></div>
                             <div class="nav-panel" data-sign="plus"><a href="#panel-5" class="anchor">Next</a></div>
@@ -138,11 +147,9 @@
                         </div>
                         <div class="col-6 d-flex flex-column">
           
-                          <h2>Panel 5</h2>
+                          <h2>Our group photo</h2>
           
-                          <p class="step-description">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
-                          </p>
+                          <img src="groupphoto.PNG">
           
                           <div class="panels-navigation text-right">
                             <div class="nav-panel" data-sign="minus"><a href="#panel-4" class="anchor">Prev</a></div>
@@ -154,7 +161,27 @@
                 </div>
               </section>
           
-              <section id="map" class="full-screen"></section>      
+              <section id="map" class="full-screen">
+                <p>
+                  Sources:
+                </p>
+                <p1>
+                  Biodiesel research
+                  <br>
+                  https://www.esru.strath.ac.uk//EandE/Web_sites/02-03/biofuels/what_biodiesel.htm
+                  <br>
+                  https://www.biodiesel.com/biodiesel-benefits/#:~:text=Biodiesel%20provides%20significantly%20reduced%20emissions,as%2085%25%20compared%20with%20petrodiesel
+                  <br>
+                  https://afdc.energy.gov/files/u/publication/biodiesel_basics.pdf
+                  <br>
+                  https://edu.rsc.org/resources/making-biodiesel/2209.article
+                  <br>
+                  <br>
+                  Main page styles and animation
+                  <br>
+                  https://greensock.com/st-demos/
+                </p1>
+              </section>      
             </main>
         </div>
         <script src="gsap.min.js"></script>
