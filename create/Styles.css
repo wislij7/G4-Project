@@ -31,11 +31,4 @@ p{
 		background-position: 0% 50%;
 	}
 }
-
-button{
-    background-color: rgb(67, 204, 40);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
   
